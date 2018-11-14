@@ -16,16 +16,20 @@ public class Testing {
      */
     public static void main(String[] args) {
        
-      double i = Math.random()* 5 + 1;
+      int i = Math.random()* 5 + 1;
+      String a = "Test";
       
       if (i== 6.0){
-           String a "The Dragon has been slain!";
+           a = "The Dragon has been slain!";
       } else if(i== 1){
-               String b "Good try...";
+           a = "Congrats, you're dead.";
+      }else{
+        a = "Nice try, but no.";
           
       }
+      System.out.println(a);
       }
-// TODO code application logic here
+
     }
     
-}
+
