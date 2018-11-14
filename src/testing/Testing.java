@@ -16,7 +16,7 @@ public class Testing {
      */
     public static void main(String[] args) {
        
-      int i = Math.random()* 5 + 1;
+      int i = (int) (Math.random()* 5 + 1);
       String a = "Test";
       
       if (i== 6.0){
